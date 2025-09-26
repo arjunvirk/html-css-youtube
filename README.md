@@ -4,6 +4,10 @@ A fully responsive frontend clone of the YouTube homepage built using **HTML**, 
 
 ---
 
+## 🌐 Live Demo
+
+[Click here to view the live site](https://arjunvirk.github.io/html-css-youtube/)
+
 ## 📸 Screenshots
 
 ### 💻 Desktop View
