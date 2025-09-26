@@ -1,0 +1,117 @@
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    height: 55px;
+
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+header .left-part {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    margin-right: 60px;
+}
+
+header .left-part .hamburger-menu-icon {
+    height: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+header .left-part .youtube-logo-icon {
+    height: 20px;
+    cursor: pointer;
+}
+
+header .middle-part {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    margin: 0 30px;
+}
+
+header .middle-part .search-bar {
+    padding: 12px 10px;
+    flex: 1;
+    max-width: 350px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 3px;
+    width: 0;
+}
+
+header .middle-part .search-bar::placeholder {
+    font-size: 16px;
+    font-family: Roboto, Arial;
+    color: rgb(138, 138, 138);
+}
+
+header .middle-part .search-icon,
+.voice-search-icon {
+    height: 24px;
+    margin-top: 2px;
+}
+
+header .search-button {
+    border: 1px solid rgb(196, 196, 196);
+    padding: 5px 18px;
+    margin-left: -1px;
+    margin-right: 12px;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+header .voice-search-button {
+    background: transparent;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(248, 244, 244);
+    cursor: pointer;
+}
+
+header .right-part {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header .right-part>div>img {
+    height: 24px;
+    cursor: pointer;
+}
+
+header .right-part > div:last-child img{
+    height: 32px;
+    border-radius: 50%;
+}
+
+header .right-part .notification-icon-container{
+    position: relative;
+}
+
+.notification-icon-count-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: -1px;
+    right: -3px;
+    background-color: rgb(216, 23, 23);
+    color: white;
+    font-size: 10px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}

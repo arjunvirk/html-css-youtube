@@ -1,0 +1,45 @@
+.sidebar{
+    z-index: 9999;
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    width: 70px;
+    background-color: #fff;
+    /* margin-right: 80px; */
+    padding-left: 10px;
+}
+
+.sidebar div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.sidebar div img{
+    height: 24px;
+}
+
+.sidebar div p{
+    font-size: 10px;
+    margin: 6px 0;
+}
+
+.youtube-music p{
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+    width: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Optional: If your main content is affected by sidebar width */
+  .main-content {
+    margin-left: 0 !important;
+    width: 100%;
+  }
+}
