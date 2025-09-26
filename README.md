@@ -21,7 +21,6 @@ A fully responsive frontend clone of the YouTube homepage built using **HTML**, 
 - ✅ Responsive layout for mobile, tablet, and desktop
 - ✅ Sidebar navigation with icons
 - ✅ Video grid layout with thumbnails and titles
-- ✅ Dark mode toggle using CSS variables
 - ✅ Clean semantic HTML structure
 - ✅ Organized CSS with modular files (`header.css`, `sidebar.css`, etc.)
 
